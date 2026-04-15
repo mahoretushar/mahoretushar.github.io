@@ -58,6 +58,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
+        },{id: "nav-certificates",
+          title: "certificates",
+          description: "Certifications and courses completed.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/certificates/";
+          },
         },{id: "nav-people",
           title: "people",
           description: "members of the lab or group",
