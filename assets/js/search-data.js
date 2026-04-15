@@ -53,7 +53,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "Curriculum Vitae — Tushar Mahore",
+          description: "Curriculum Vitae — Tushar Ravindra Mahore",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
