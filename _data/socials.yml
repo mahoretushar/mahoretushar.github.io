@@ -7,6 +7,8 @@ github_username: mahoretushar # your GitHub username
 rss_icon: true # comment this line to hide the RSS icon
 # inspirehep_id: # Inspire HEP author ID
 scholar_userid: nETPgMwAAAAJ # your Google Scholar ID
+orcid_id: 0009-0000-9406-1178 # your ORCID ID
+scopus_id: 57215925954 # your Scopus author ID
 # wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 # whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 # custom_social: # can be any name here other than the ones already defined in the jekyll-socials plugin

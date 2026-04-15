@@ -2,47 +2,45 @@
 layout: page
 title: research
 permalink: /research/
-description: Ongoing and completed research projects.
+description: Research interests and contributions.
 nav: true
 nav_order: 2
 ---
 
-## PhD Research
+## Research Interests
 
-### Edge-Deployable Crisis Tweet Summarization
+My research spans **Natural Language Processing**, **Machine Learning**, **Cybersecurity**, and **Crisis Informatics**. I am particularly interested in building intelligent systems that work reliably in resource-constrained and real-world environments.
 
-> Designing NLP pipelines that generate trustworthy disaster situation summaries
-> from social media — running entirely on local hardware, no internet required.
-
-During a disaster, social media generates thousands of posts per minute with critical
-real-time information. Field responders often operate without stable internet, making
-cloud AI unavailable exactly when it's needed most.
-
-This research builds and evaluates an **edge-deployable NLP pipeline** that:
-- Detects crisis information bursts from Twitter/X streams
-- Generates abstractive situation summaries using lightweight transformer models
-- Runs fully offline on a standard laptop
-
-**Key Findings (V0.6):**
-
-| Model | BERTScore | Edge Feasibility |
-|---|---|---|
-| Flan-T5 + ChromaDB (RAG) | 0.8403 | ❌ Cloud-dependent |
-| DistilBART | ~0.82 | ✅ 353 MB, Flesch 60.7 |
-
-**DistilBART** is the recommended edge model — compact, readable output, no internet needed.
-**Flan-T5 + ChromaDB** leads on quality for connected environments.
-
-**Status:** First project of PhD · Notebooks complete · Paper in preparation
-
-**Tech:** Python · HuggingFace Transformers · ChromaDB · Flan-T5 · DistilBART · ROUGE · BERTScore
+- Natural Language Processing & Text Classification
+- Cyberbullying Detection & Social Media Analysis
+- Machine Learning for Healthcare & Biomedical Systems
+- Swarm Robotics & Crisis Management
+- Fraud Detection & Security Systems
+- Big Data Analytics & Data Science
 
 ---
 
-## Research Interests
+## Selected Works
 
-- Natural Language Processing
-- Abstractive Text Summarization
-- Retrieval-Augmented Generation (RAG)
-- Crisis Informatics & Disaster Response
-- Edge AI & On-Device Inference
+**NLP & Social Media**
+- Cyberbullying classification using NLP and ML techniques *(IEEE ACROSET, 2024)*
+- Comparative analysis of email spam detection using ML approaches *(IOP, 2021)*
+- Review classification for user sentiment analysis *(2022)*
+
+**Healthcare & Biomedical**
+- Explainable hybrid TabTransformer–Random Forest model for biometric security in IoMT *(Academic Press, 2026)*
+- Detection of multi-class skin cancer using SGD augmentation and activation mapping *(JIIP, 2025)*
+- Big Data in Healthcare — survey *(ICICC, 2021)*
+
+**Security & Fraud Detection**
+- Credit card fraud detection using ML and deep learning *(Springer ICICC, 2022)*
+- Secure graphical password scheme *(JournalNX, 2017)*
+
+**Robotics & Crisis Systems**
+- Coordinated response strategies: swarm robotics for crisis management *(Auerbach Publications, 2025)*
+
+---
+
+## Collaborations
+
+I collaborate actively with researchers across institutions including ICEM Pune, Pimpri Chinchwad University, and Sipna College of Engineering. For collaboration inquiries, please [get in touch](mailto:mahoretushar@gmail.com).
