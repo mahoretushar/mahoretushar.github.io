@@ -1,15 +1,35 @@
 ---
 layout: page
-permalink: /teaching/
 title: teaching
-description: Course materials, schedules, and resources for classes taught.
+permalink: /teaching/
+description: Courses taught at Indira College of Engineering and Management (ICEM), Pune.
 nav: true
-nav_order: 6
-calendar: true
+nav_order: 4
 ---
 
-This page displays a collection of courses with detailed schedules, materials, and resources. You can organize your courses by years, terms, or topics.
+## Courses at ICEM
 
-{% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
+### Current
 
-{% include courses.liquid %}
+| Course | Programme | Pattern | Year |
+|---|---|---|---|
+| Artificial Neural Networks (317531) | T.E. AI & Data Science | SPPU 2019 | AY 2025–26 |
+
+---
+
+### Teaching Philosophy
+
+I focus on building intuition before formalism — students should understand *why* a neural
+network learns before they see the backpropagation equations. Labs are designed to run on
+standard hardware so no student is blocked by compute access.
+
+---
+
+## Student Resources
+
+For course materials, assignment schedules, and lab instructions, please check the
+department portal or contact me directly.
+
+**Office Hours:** By appointment — email preferred.
+
+**Email:** mahoretushar@gmail.com

@@ -2,33 +2,44 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: >
+  Assistant Professor, <a href="https://indiraicem.ac.in">ICEM, Pune</a> ·
+  PhD Student, <a href="https://www.sitpune.edu.in">Symbiosis Institute of Technology</a>
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image: IMG_0670.PNG
+  image_circular: false
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Department of AI & Data Science</p>
+    <p>Indira College of Engineering and Management</p>
+    <p>Pune, Maharashtra, India</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+news: false
+selected_papers: false
+social: true
 
 announcements:
-  enabled: false # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 0 # leave blank to include all the news in the `_news` folder
+  enabled: false
+  scrollable: false
+  limit: 0
 
 latest_posts:
   enabled: false
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 0 # leave blank to include all the blog posts
+  scrollable: false
+  limit: 0
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am an Assistant Professor in the Department of Artificial Intelligence and Data Science at
+[Indira College of Engineering and Management (ICEM)](https://indiraicem.ac.in), Pune, and a
+PhD student at [Symbiosis Institute of Technology (SIT)](https://www.sitpune.edu.in), Pune.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research lies at the intersection of **Natural Language Processing**, **Crisis Informatics**,
+and **Edge Computing**. I am currently building edge-deployable NLP pipelines that generate
+real-time situation summaries from social media during disasters — designed to work entirely
+offline, without cloud dependency.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I teach courses in Artificial Intelligence and Data Science under the SPPU pattern, with a
+focus on helping students build intuition for neural architectures and modern ML systems.
+
+**Research Interests:** NLP · Abstractive Summarization · Retrieval-Augmented Generation · Crisis Informatics · Edge AI
