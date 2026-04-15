@@ -6,19 +6,19 @@
 
 :root {
   color-scheme: light;
-  --global-bg-color: #{v.$white-color};
-  --global-code-bg-color: #{v.$code-bg-color-light};
-  --global-text-color: #{v.$black-color};
-  --global-text-color-light: #{v.$grey-color};
-  --global-theme-color: #{v.$purple-color};
-  --global-hover-color: #{v.$purple-color};
-  --global-hover-text-color: #{v.$white-color};
-  --global-footer-bg-color: #{v.$grey-color-dark};
-  --global-footer-text-color: #{v.$grey-color-light};
-  --global-footer-link-color: #{v.$white-color};
+  --global-bg-color: #f4f0e8;
+  --global-code-bg-color: #ece8d9;
+  --global-text-color: #3c3836;
+  --global-text-color-light: #7c7465;
+  --global-theme-color: #4a6741;
+  --global-hover-color: #708d65;
+  --global-hover-text-color: #f4f0e8;
+  --global-footer-bg-color: #3a4a3a;
+  --global-footer-text-color: #d8d0bc;
+  --global-footer-link-color: #a3b899;
   --global-distill-app-color: #{v.$grey-color};
-  --global-divider-color: rgba(0, 0, 0, 0.1);
-  --global-card-bg-color: #{v.$white-color};
+  --global-divider-color: rgba(74, 103, 65, 0.15);
+  --global-card-bg-color: #fffcf0;
   --global-highlight-color: #{v.$red-color-dark};
   --global-back-to-top-bg-color: rgba(
     #{color.channel(v.$black-color, "red", v.$space: rgb)},
