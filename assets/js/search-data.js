@@ -46,7 +46,7 @@ ninja.data = [{
           },
         },{id: "nav-teaching",
           title: "teaching",
-          description: "Courses taught at Indira College of Engineering and Management (ICEM), Pune.",
+          description: "Courses taught across institutions including ICEM Pune, PCU Pune, SCOET Amravati, DRGITR Amravati, and Great Learning.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
@@ -60,17 +60,10 @@ ninja.data = [{
           },
         },{id: "nav-certificates",
           title: "certificates",
-          description: "Certifications and courses completed.",
+          description: "Professional certifications, specializations, and training programs completed.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/certificates/";
-          },
-        },{id: "nav-people",
-          title: "people",
-          description: "members of the lab or group",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/people/";
           },
         },{id: "dropdown-bookshelf",
               title: "bookshelf",
@@ -86,26 +79,48 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-a-post-with-plotly-js",
+            },{id: "post-building-a-rag-pipeline-from-scratch-with-python",
         
-          title: "a post with plotly.js",
+          title: "Building a RAG Pipeline from Scratch with Python",
         
-        description: "this is what included plotly.js code could look like",
+        description: "A hands-on walkthrough of building a Retrieval-Augmented Generation system — from document indexing to grounded LLM responses — using FAISS, sentence-transformers, and a local model.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/plotly/";
+            window.location.href = "/blog/2026/rag-pipeline-from-scratch/";
           
         },
-      },{id: "post-a-post-with-image-galleries",
+      },{id: "post-backpropagation-from-scratch-with-numpy",
         
-          title: "a post with image galleries",
+          title: "Backpropagation from Scratch with NumPy",
         
-        description: "this is what included image galleries could look like",
+        description: "Implement a two-layer neural network with forward pass, loss computation, and backpropagation using only NumPy. No frameworks — every gradient derived and coded explicitly.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2024/photo-gallery/";
+            window.location.href = "/blog/2026/backpropagation-from-scratch-numpy/";
+          
+        },
+      },{id: "post-text-classification-for-cyberbullying-detection-a-practical-nlp-walkthrough",
+        
+          title: "Text Classification for Cyberbullying Detection: A Practical NLP Walkthrough",
+        
+        description: "Build a cyberbullying detection classifier from raw text to evaluation — preprocessing, TF-IDF features, SVM and Random Forest, cross-validation, and a full sklearn pipeline. Based on real research published at IEEE ACROSET 2024.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/cyberbullying-detection-nlp-walkthrough/";
+          
+        },
+      },{id: "post-explainable-ai-in-healthcare-tabtransformer-shap-for-iomt-security",
+        
+          title: "Explainable AI in Healthcare: TabTransformer + SHAP for IoMT Security",
+        
+        description: "Apply a TabTransformer — a Transformer architecture for tabular data — to IoMT intrusion detection, then explain its predictions using SHAP. A deep dive into XAI for high-stakes healthcare systems, based on our Academic Press 2026 book chapter.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/explainable-ai-healthcare-tabtransformer-shap/";
           
         },
       },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
@@ -119,226 +134,6 @@ ninja.data = [{
             window.open("https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/", "_blank");
           
         },
-      },{id: "post-a-post-with-tabs",
-        
-          title: "a post with tabs",
-        
-        description: "this is what included tabs in a post could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/tabs/";
-          
-        },
-      },{id: "post-a-post-with-typograms",
-        
-          title: "a post with typograms",
-        
-        description: "this is what included typograms code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/typograms/";
-          
-        },
-      },{id: "post-a-post-that-can-be-cited",
-        
-          title: "a post that can be cited",
-        
-        description: "this is what a post that can be cited looks like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/post-citation/";
-          
-        },
-      },{id: "post-a-post-with-pseudo-code",
-        
-          title: "a post with pseudo code",
-        
-        description: "this is what included pseudo code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/pseudocode/";
-          
-        },
-      },{id: "post-a-post-with-code-diff",
-        
-          title: "a post with code diff",
-        
-        description: "this is how you can display code diffs",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/code-diff/";
-          
-        },
-      },{id: "post-a-post-with-advanced-image-components",
-        
-          title: "a post with advanced image components",
-        
-        description: "this is what advanced image components could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/advanced-images/";
-          
-        },
-      },{id: "post-a-post-with-vega-lite",
-        
-          title: "a post with vega lite",
-        
-        description: "this is what included vega lite code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/vega-lite/";
-          
-        },
-      },{id: "post-a-post-with-geojson",
-        
-          title: "a post with geojson",
-        
-        description: "this is what included geojson code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/geojson-map/";
-          
-        },
-      },{id: "post-a-post-with-echarts",
-        
-          title: "a post with echarts",
-        
-        description: "this is what included echarts code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/echarts/";
-          
-        },
-      },{id: "post-a-post-with-chart-js",
-        
-          title: "a post with chart.js",
-        
-        description: "this is what included chart.js code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/chartjs/";
-          
-        },
-      },{id: "post-a-post-with-tikzjax",
-        
-          title: "a post with TikZJax",
-        
-        description: "this is what included TikZ code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/tikzjax/";
-          
-        },
-      },{id: "post-a-post-with-bibliography",
-        
-          title: "a post with bibliography",
-        
-        description: "an example of a blog post with bibliography",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/post-bibliography/";
-          
-        },
-      },{id: "post-a-post-with-jupyter-notebook",
-        
-          title: "a post with jupyter notebook",
-        
-        description: "an example of a blog post with jupyter notebook",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/jupyter-notebook/";
-          
-        },
-      },{id: "post-a-post-with-custom-blockquotes",
-        
-          title: "a post with custom blockquotes",
-        
-        description: "an example of a blog post with custom blockquotes",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/custom-blockquotes/";
-          
-        },
-      },{id: "post-a-post-with-table-of-contents-on-a-sidebar",
-        
-          title: "a post with table of contents on a sidebar",
-        
-        description: "an example of a blog post with table of contents on a sidebar",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/sidebar-table-of-contents/";
-          
-        },
-      },{id: "post-a-post-with-audios",
-        
-          title: "a post with audios",
-        
-        description: "this is what included audios could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/audios/";
-          
-        },
-      },{id: "post-a-post-with-videos",
-        
-          title: "a post with videos",
-        
-        description: "this is what included videos could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/videos/";
-          
-        },
-      },{id: "post-displaying-beautiful-tables-with-bootstrap-tables",
-        
-          title: "displaying beautiful tables with Bootstrap Tables",
-        
-        description: "an example of how to use Bootstrap Tables",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/tables/";
-          
-        },
-      },{id: "post-a-post-with-table-of-contents",
-        
-          title: "a post with table of contents",
-        
-        description: "an example of a blog post with table of contents",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/table-of-contents/";
-          
-        },
-      },{id: "post-a-post-with-giscus-comments",
-        
-          title: "a post with giscus comments",
-        
-        description: "an example of a blog post with giscus comments",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2022/giscus-comments/";
-          
-        },
       },{id: "post-displaying-external-posts-on-your-al-folio-blog",
         
           title: 'Displaying External Posts on Your al-folio Blog <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
@@ -350,176 +145,146 @@ ninja.data = [{
             window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
           
         },
-      },{id: "post-a-post-with-redirect",
-        
-          title: "a post with redirect",
-        
-        description: "you can also redirect to assets like pdf",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/assets/pdf/example_pdf.pdf";
-          
-        },
-      },{id: "post-a-post-with-diagrams",
-        
-          title: "a post with diagrams",
-        
-        description: "an example of a blog post with diagrams",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2021/diagrams/";
-          
-        },
-      },{id: "post-a-distill-style-blog-post",
-        
-          title: "a distill-style blog post",
-        
-        description: "an example of a distill-style blog post and main elements",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2021/distill/";
-          
-        },
-      },{id: "post-a-post-with-twitter",
-        
-          title: "a post with twitter",
-        
-        description: "an example of a blog post with twitter",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2020/twitter/";
-          
-        },
-      },{id: "post-a-post-with-disqus-comments",
-        
-          title: "a post with disqus comments",
-        
-        description: "an example of a blog post with disqus comments",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/disqus-comments/";
-          
-        },
-      },{id: "post-a-post-with-math",
-        
-          title: "a post with math",
-        
-        description: "an example of a blog post with some math",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/math/";
-          
-        },
-      },{id: "post-a-post-with-code",
-        
-          title: "a post with code",
-        
-        description: "an example of a blog post with some code",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/code/";
-          
-        },
-      },{id: "post-a-post-with-images",
-        
-          title: "a post with images",
-        
-        description: "this is what included images could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/images/";
-          
-        },
-      },{id: "post-a-post-with-formatting-and-links",
-        
-          title: "a post with formatting and links",
-        
-        description: "march &amp; april, looking forward to summer",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/formatting-and-links/";
-          
-        },
       },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-enrolled-as-phd-student-at-symbiosis-institute-of-technology-sit-pune-researching-edge-deployable-nlp-pipelines-for-real-time-disaster-situation-summarization",
+          title: 'Enrolled as PhD student at Symbiosis Institute of Technology (SIT), Pune, researching edge-deployable...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-paper-presented-at-ieee-acroset-2024-cyberbullying-classification-using-nlp-and-machine-learning-techniques-acropolis-institute-of-technology-amp-amp-research-indore",
+          title: 'Paper presented at IEEE ACROSET 2024 — Cyberbullying Classification Using NLP and Machine...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-journal-paper-published-detection-of-multi-class-skin-cancer-using-sgd-augmentation-model-and-activation-mapping-journal-of-innovative-image-processing-vol-7-4-2025",
+          title: 'Journal paper published — Detection of Multi-class Skin Cancer using SGD Augmentation Model...',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "news-book-chapter-published-an-explainable-hybrid-tabtransformer-random-forest-model-for-biometric-security-in-iomt-healthcare-systems-academic-press-2026",
+          title: 'Book chapter published — An Explainable Hybrid TabTransformer–Random Forest Model for Biometric Security...',
+          description: "",
+          section: "News",},{id: "news-joined-indira-college-of-engineering-and-management-icem-pune-as-assistant-professor-in-the-department-of-ai-amp-amp-data-science",
+          title: 'Joined Indira College of Engineering and Management (ICEM), Pune as Assistant Professor in...',
+          description: "",
+          section: "News",},{id: "projects-edge-nlp-pipeline-for-disaster-summarization",
+          title: 'Edge NLP Pipeline for Disaster Summarization',
+          description: "PhD research — offline, edge-deployable NLP system for real-time situation summarization during disasters using social media data.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+            },},{id: "projects-cyberbullying-detection-using-nlp-amp-ml",
+          title: 'Cyberbullying Detection using NLP &amp;amp; ML',
+          description: "Automated classification of cyberbullying content on social media using Natural Language Processing and Machine Learning. Published at IEEE ACROSET 2024.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+            },},{id: "projects-explainable-tabtransformer-rf-model-for-iomt-security",
+          title: 'Explainable TabTransformer–RF Model for IoMT Security',
+          description: "Hybrid explainable AI model combining TabTransformer and Random Forest for biometric security in IoMT healthcare systems. Published in Academic Press, 2026.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+            },},{id: "projects-multi-class-skin-cancer-detection-using-deep-learning",
+          title: 'Multi-class Skin Cancer Detection using Deep Learning',
+          description: "Deep learning system for multi-class skin cancer detection using SGD augmentation and activation mapping. Published in Journal of Innovative Image Processing, 2025.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+            },},{id: "projects-swarm-robotics-for-crisis-management",
+          title: 'Swarm Robotics for Crisis Management',
+          description: "Coordinated multi-robot response strategies for crisis scenarios using swarm intelligence and AI. Published in Auerbach Publications, 2025.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
+            },},{id: "projects-ai-based-covid-19-omicron-early-detection-system",
+          title: 'AI-Based Covid-19 / Omicron Early Detection System',
+          description: "AI system for early symptom-based detection of Covid-19 and Omicron variants. Filed as Indian Patent, June 2022.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
+            },},{id: "projects-media-analysis-system-for-positive-thought-broadcasting",
+          title: 'Media Analysis System for Positive Thought Broadcasting',
+          description: "AI-driven system to identify and surface positive, constructive media content during the Covid-19 pandemic. Registered Copyright, March 2021.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
+            },},{id: "projects-credit-card-fraud-detection-using-ml-amp-deep-learning",
+          title: 'Credit Card Fraud Detection using ML &amp;amp; Deep Learning',
+          description: "Comparative study of ML and deep learning approaches for credit card fraud detection on imbalanced datasets. Published at Springer ICICC 2022 and AIP 2023.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
+            },},{id: "projects-student-attendance-monitoring-via-facial-recognition",
+          title: 'Student Attendance Monitoring via Facial Recognition',
+          description: "Automated contactless student attendance system using deep learning-based facial recognition. Published at Springer ICICC 2022.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
-            },},{id: "teachings-data-science-fundamentals",
-          title: 'Data Science Fundamentals',
-          description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
+            },},{id: "teachings-advanced-databases",
+          title: 'Advanced Databases',
+          description: "Advanced topics in database systems — distributed databases, query optimisation, spatial databases, data warehousing, and NewSQL systems.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/advanced-databases/";
+            },},{id: "teachings-big-data-analytics",
+          title: 'Big Data Analytics',
+          description: "Processing and analysing large-scale datasets using Hadoop, Spark, and cloud platforms. Topics include MapReduce, distributed storage, streaming analytics, and visualisation at scale.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/big-data-analytics/";
+            },},{id: "teachings-computer-programming-c-language",
+          title: 'Computer Programming (C Language)',
+          description: "Foundational programming course using C — covering structured programming, arrays, pointers, functions, structures, and file handling.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/computer-programming-c/";
+            },},{id: "teachings-data-mining",
+          title: 'Data Mining',
+          description: "Techniques for discovering patterns, associations, and knowledge from large datasets. Covers classification, clustering, association rule mining, and anomaly detection.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/data-mining/";
+            },},{id: "teachings-data-science-amp-statistics",
+          title: 'Data Science &amp;amp; Statistics',
+          description: "Covers the full data science workflow — statistical foundations, data wrangling, exploratory analysis, machine learning, and visualization using Python and R. Taught at PCU and Great Learning (2023–2025).",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/data-science-fundamentals/";
-            },},{id: "teachings-introduction-to-machine-learning",
-          title: 'Introduction to Machine Learning',
-          description: "This course provides an introduction to machine learning concepts, algorithms, and applications. Students will learn about supervised and unsupervised learning, model evaluation, and practical implementations.",
+            },},{id: "teachings-database-management-systems",
+          title: 'Database Management Systems',
+          description: "Relational database design, SQL, transaction management, normalisation, and an introduction to NoSQL systems.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/database-management-systems/";
+            },},{id: "teachings-design-and-analysis-of-algorithms",
+          title: 'Design and Analysis of Algorithms',
+          description: "Algorithm design paradigms, complexity analysis, sorting and searching, graph algorithms, dynamic programming, greedy methods, and NP-completeness.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/design-analysis-algorithms/";
+            },},{id: "teachings-devops-practical",
+          title: 'DevOps (Practical)',
+          description: "Hands-on DevOps practices — version control with Git, CI/CD pipelines, containerisation with Docker, and Linux system administration.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/devops/";
+            },},{id: "teachings-discrete-structure-and-graph-theory",
+          title: 'Discrete Structure and Graph Theory',
+          description: "Mathematical foundations for computer science — logic, set theory, relations, functions, combinatorics, and graph theory.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/discrete-structures/";
+            },},{id: "teachings-artificial-neural-networks-317531",
+          title: 'Artificial Neural Networks (317531)',
+          description: "T.E. AI &amp; Data Science, SPPU 2019 pattern. Covers biological foundations through modern deep architectures — perceptrons, backpropagation, CNNs, RNNs, and transfer learning.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/introduction-to-machine-learning/";
+            },},{id: "teachings-java-programming",
+          title: 'Java Programming',
+          description: "Core Java programming including OOP principles, collections, exception handling, multithreading, and an introduction to Java EE concepts.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/java-programming/";
+            },},{id: "teachings-network-security",
+          title: 'Network Security',
+          description: "Principles and practices of securing computer networks — cryptography, authentication, firewalls, intrusion detection, and common attack vectors.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/network-security/";
+            },},{id: "teachings-operations-research-and-management",
+          title: 'Operations Research and Management',
+          description: "Mathematical optimisation techniques for decision-making — linear programming, transportation and assignment problems, queuing theory, and simulation.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/operations-research/";
+            },},{id: "teachings-python-programming",
+          title: 'Python Programming',
+          description: "Comprehensive Python programming — from core syntax and data structures to OOP, file handling, and application development. Taught across multiple institutions and online platforms.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/python-programming/";
+            },},{id: "teachings-theory-of-computation",
+          title: 'Theory of Computation',
+          description: "Formal languages, automata theory, regular expressions, context-free grammars, Turing machines, decidability, and computational complexity.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/theory-of-computation/";
             },},{
         id: 'social-cv',
         title: 'CV',
