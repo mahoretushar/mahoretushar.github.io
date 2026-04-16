@@ -1,80 +1,54 @@
 ---
 layout: page
-title: project 9
-description: another project with an image 🎉
-img: assets/img/6.jpg
-importance: 4
-category: fun
+title: Student Attendance Monitoring via Facial Recognition
+description: Automated contactless student attendance system using deep learning-based facial recognition. Published at Springer ICICC 2022.
+img: assets/img/9.jpg
+importance: 9
+category: software
+related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Manual attendance marking is time-consuming and prone to proxy fraud. This project implements an **automated student attendance monitoring system** using **deep learning-based facial recognition**, enabling real-time, contactless attendance logging from classroom camera feeds.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+---
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+## Motivation
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+- Manual roll calls consume 5–10 minutes of every lecture
+- Proxy attendance is a persistent problem in engineering colleges
+- Post-pandemic, contactless solutions gained added relevance
+- Results need to integrate with college ERP/MIS systems
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+---
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+## System Design
 
-{% raw %}
+- **Face detection** — MTCNN / Haar Cascade to detect and localize faces in classroom images
+- **Face recognition** — deep CNN (FaceNet / VGGFace) to identify students from a registered database
+- **Attendance logging** — automatic marking with timestamp, cross-referenced against class schedule
+- **Database integration** — structured storage in MySQL/PostgreSQL
+- **Dashboard** — faculty view for attendance reports and anomaly alerts
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+---
 
-{% endraw %}
+## Key Contributions
+
+- End-to-end pipeline from live camera feed to attendance database
+- Handles partial occlusion, varying lighting, and multiple faces per frame
+- Evaluated on real classroom data from an engineering college environment
+
+---
+
+## Publication
+
+Published in **International Conference on Innovative Computing and Communications (ICICC 2022)**, Vol. 3, pp. 613–620, Springer Nature Singapore.
+
+{% cite wankhade2022attendance %}
+
+---
+
+## Status
+
+**Published** — Springer ICICC 2022.

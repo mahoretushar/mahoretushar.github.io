@@ -19,6 +19,13 @@ strong {
   color: var(--global-text-color);
 }
 
+article {
+  p,
+  li {
+    text-align: justify;
+  }
+}
+
 hr {
   border-top: 1px solid var(--global-divider-color);
 }

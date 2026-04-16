@@ -1,34 +1,78 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+# Co-authors of Tushar Ravindra Mahore
+# Keys are lowercase last names; firstname lists cover all name variants used in papers.
+# Add url: field when a co-author's personal/academic page is known.
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"pande":
+  - firstname: ["Sagar Dhanraj", "Sagar", "Sagar D.", "S. D."]
+  - firstname: ["Usha"]
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"dahat":
+  - firstname: ["Ankush Vasant", "Ankush", "Ankush V."]
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"joshi":
+  - firstname: ["Anushka Ashish", "Anushka A.", "Anushka"]
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"mankar":
+  - firstname: ["Nikhilesh Pramod", "Nikhilesh P.", "Nikhilesh"]
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"kute":
+  - firstname: ["Vivek B.", "Vivek"]
+  - firstname: ["Umesh Trambakrao", "Umesh T.", "Umesh"]
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"sagne":
+  - firstname: ["Sumit S.", "Sumit"]
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"khamparia":
+  - firstname: ["Aditya"]
 
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"nathe":
+  - firstname: ["Ankita Shrikrushna", "Ankita S.", "Ankita"]
+
+"al turjman":
+  - firstname: ["Fadi"]
+
+"gorte":
+  - firstname: ["Ashvini S.", "Ashvini"]
+
+"mohod":
+  - firstname: ["S. W.", "SW"]
+
+"keole":
+  - firstname: ["Ranjit R.", "Ranjit", "R. R."]
+
+"jamnekar":
+  - firstname: ["R. V."]
+
+"wankhade":
+  - firstname: ["Reshma B.", "Reshma"]
+  - firstname: ["Naresh Vinod", "Naresh V.", "Naresh"]
+
+"bhende":
+  - firstname: ["Rutuja"]
+
+"popli":
+  - firstname: ["Sheena J.", "Sheena"]
+
+"karale":
+  - firstname: ["Nikhil E.", "Nikhil"]
+
+"madhavan":
+  - firstname: ["Mangena Venu", "Mangena V."]
+
+"umekar":
+  - firstname: ["Pooja"]
+
+"kalyankar":
+  - firstname: ["Dhiraj"]
+
+"dandge":
+  - firstname: ["Renu R.", "Renu"]
+
+"dhole":
+  - firstname: ["Pallavi H.", "Pallavi"]
+
+"deorankar":
+  - firstname: ["A. V.", "AV"]
+
+"desai":
+  - firstname: ["Usha"]

@@ -3,4 +3,10 @@ github_users:
 
 repo_description_lines_max: 2
 
-github_repos: []
+github_repos:
+  - mahoretushar/r_workshop
+  - mahoretushar/python_23-24
+  - mahoretushar/python_and_data_science
+  - mahoretushar/data_analytics
+  - mahoretushar/data_science_and_machine_learning
+  - mahoretushar/c_theory_code_examples

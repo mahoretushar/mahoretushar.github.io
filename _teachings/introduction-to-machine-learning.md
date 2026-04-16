@@ -1,113 +1,73 @@
 ---
 layout: course
-title: Introduction to Machine Learning
-description: This course provides an introduction to machine learning concepts, algorithms, and applications. Students will learn about supervised and unsupervised learning, model evaluation, and practical implementations.
-instructor: Prof. Example
-year: 2023
-term: Fall
-location: Main Campus, Room 301
-time: Tuesdays and Thursdays, 10:00-11:30 AM
-course_id: intro-machine-learning
+title: Artificial Neural Networks (317531)
+description: T.E. AI & Data Science, SPPU 2019 pattern. Covers biological foundations through modern deep architectures — perceptrons, backpropagation, CNNs, RNNs, and transfer learning.
+instructor: Tushar R. Mahore
+year: 2026
+term: Even Semester (AY 2025–26)
+location: ICEM, Pune — Department of AI & Data Science
+time: As per SPPU timetable
+course_id: ann-317531
 schedule:
   - week: 1
-    date: Sept 5
-    topic: Course Introduction
-    description: Overview of machine learning, course structure, and expectations.
-    materials:
-      - name: Syllabus
-        url: /assets/pdf/example_pdf.pdf
-      - name: Slides
-        url: /assets/pdf/example_pdf.pdf
+    date: Unit I
+    topic: Introduction to Neural Networks
+    description: Biological neuron model, McCulloch-Pitts neuron, activation functions, perceptron learning rule, limitations of single-layer perceptrons.
 
   - week: 2
-    date: Sept 12
-    topic: Linear Regression
-    description: Introduction to linear regression, gradient descent, and model evaluation.
-    materials:
-      - name: Lecture Notes
-        url: /assets/pdf/example_pdf.pdf
-      - name: Assignment 1
-        url: /assets/pdf/example_pdf.pdf
+    date: Unit II
+    topic: Multilayer Perceptron & Backpropagation
+    description: Feedforward networks, gradient descent, backpropagation algorithm, vanishing gradient problem, weight initialization strategies.
 
   - week: 3
-    date: Sept 19
-    topic: Classification
-    description: Logistic regression, decision boundaries, and multi-class classification.
-    materials:
-      - name: Lecture Notes
-        url: /assets/pdf/example_pdf.pdf
-      - name: Coding Lab
-        url: https://github.com/
+    date: Unit III
+    topic: Radial Basis Function Networks
+    description: RBF architecture, learning methods (supervised, unsupervised), comparison with MLP, applications.
 
   - week: 4
-    date: Sept 26
-    topic: Decision Trees and Random Forests
-    description: Tree-based methods, ensemble learning, and feature importance.
-    materials:
-      - name: Lecture Notes
-        url: /assets/pdf/example_pdf.pdf
-      - name: Assignment 2
-        url: /assets/pdf/example_pdf.pdf
+    date: Unit IV
+    topic: Self-Organizing Maps (SOM)
+    description: Unsupervised competitive learning, Kohonen SOM, neighbourhood functions, applications in clustering and dimensionality reduction.
 
   - week: 5
-    date: Oct 3
-    topic: Support Vector Machines
-    description: Margin maximization, kernel methods, and support vectors.
-    materials:
-      - name: Lecture Notes
-        url: /assets/pdf/example_pdf.pdf
-      - name: Review Materials
-        url: /assets/pdf/example_pdf.pdf
+    date: Unit V
+    topic: Recurrent Neural Networks
+    description: Elman and Jordan networks, BPTT, vanishing gradient, LSTM and GRU architectures, sequence modelling applications.
 
   - week: 6
-    date: Oct 10
-    topic: Midterm Exam
-    description: Covers weeks 1-5.
-
-  - week: 7
-    date: Oct 17
-    topic: Neural Networks Fundamentals
-    description: Perceptrons, multilayer networks, and backpropagation.
-    materials:
-      - name: Lecture Notes
-        url: /assets/pdf/example_pdf.pdf
-      - name: Assignment 3
-        url: /assets/pdf/example_pdf.pdf
-
-  - week: 8
-    date: Oct 24
-    topic: Deep Learning
-    description: Convolutional neural networks, recurrent neural networks, and applications.
-    materials:
-      - name: Lecture Notes
-        url: /assets/pdf/example_pdf.pdf
-      - name: Coding Lab
-        url: https://github.com/
+    date: Unit VI
+    topic: Deep Learning & Convolutional Neural Networks
+    description: CNN architecture (convolution, pooling, fully connected), training deep networks, batch normalization, dropout, transfer learning, pretrained models (VGG, ResNet).
 ---
 
 ## Course Overview
 
-This introductory course on machine learning covers fundamental concepts and algorithms in the field. By the end of this course, students will be able to:
+This course provides a systematic study of Artificial Neural Networks — from biological inspiration to modern deep learning architectures. By the end of the course, students will be able to:
 
-- Understand key machine learning paradigms and concepts
-- Implement basic machine learning algorithms
-- Evaluate and compare model performance
-- Apply machine learning techniques to real-world problems
+- Understand the theoretical foundations of neural computation
+- Design and train feedforward, convolutional, and recurrent networks
+- Apply neural networks to classification, regression, and sequence problems
+- Use frameworks (TensorFlow / Keras) to implement and evaluate models
+- Interpret model behaviour using activation maps and visualization tools
 
-## Prerequisites
+## Pattern & University
 
-- Basic knowledge of linear algebra and calculus
-- Programming experience in Python
-- Probability and statistics fundamentals
+**Savitribai Phule Pune University (SPPU)**
+T.E. Artificial Intelligence and Data Science — 2019 Pattern
+Subject Code: **317531** · Subject Type: IN (Internal)
 
-## Textbooks
+## Lab Component
 
-- Primary: "Machine Learning: A Probabilistic Perspective" by Kevin Murphy
-- Reference: "Pattern Recognition and Machine Learning" by Christopher Bishop
+Practical sessions cover implementation of key architectures using Python (TensorFlow / Keras / PyTorch). Students are expected to submit a term work journal with all practicals completed.
 
-## Grading
+## Evaluation
 
-- Assignments: 40%
-- Midterm Exam: 20%
-- Final Project: 30%
-- Participation: 10%
+As per SPPU pattern:
+- Internal Assessment (Theory): 30 marks
+- End Semester Exam (Theory): 70 marks
+- Term Work (Practical): 25 marks
+- Oral / Practical Exam: 25 marks
+
+## Contact
+
+**Email:** mahoretushar@gmail.com · Office hours by appointment.

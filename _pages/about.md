@@ -15,19 +15,18 @@ profile:
     <p>Indira College of Engineering and Management</p>
     <p>Pune, Maharashtra, India</p>
 
-news: false
-selected_papers: false
+selected_papers: true
 social: true
 
 announcements:
-  enabled: false
-  scrollable: false
-  limit: 0
+  enabled: true
+  scrollable: true
+  limit: 5
 
 latest_posts:
-  enabled: false
-  scrollable: false
-  limit: 0
+  enabled: true
+  scrollable: true
+  limit: 3
 ---
 
 I am an Assistant Professor in the Department of Artificial Intelligence and Data Science at

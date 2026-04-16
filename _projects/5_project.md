@@ -1,80 +1,54 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
-importance: 3
-category: fun
+title: Swarm Robotics for Crisis Management
+description: Coordinated multi-robot response strategies for crisis scenarios using swarm intelligence and AI. Published in Auerbach Publications, 2025.
+img: assets/img/5.jpg
+importance: 5
+category: research
+related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Disaster response and crisis management require rapid, coordinated action across complex, dynamic environments. This project investigates **swarm robotics** as an approach to autonomous, decentralized crisis response — where a collective of simple robots coordinates to achieve goals no single robot could accomplish alone.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+---
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+## Motivation
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+Traditional disaster response robots are expensive and require human teleoperation. Swarm systems offer:
+- **Scalability** — deploy many low-cost robots
+- **Resilience** — the swarm continues functioning even if individual units fail
+- **Adaptability** — emergent collective behavior adapts to changing environments
+- **Parallelism** — multiple tasks (search, rescue, mapping) executed simultaneously
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+---
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+## Methodology
 
-{% raw %}
+- **Swarm intelligence algorithms** — stigmergy, flocking, foraging-inspired coordination
+- **AI-driven decision making** — local sensing and simple rules produce globally coherent behavior
+- **Scenario modeling** — simulated crisis environments (search and rescue, area mapping, hazard containment)
+- **Coordination strategies** — role assignment, task allocation, and communication in degraded environments
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+---
 
-{% endraw %}
+## Key Contributions
+
+- Survey and analysis of swarm coordination strategies for crisis scenarios
+- AI-enhanced coordination framework for heterogeneous swarm teams
+- Performance evaluated under varying team sizes, failure rates, and environment complexity
+
+---
+
+## Publication
+
+Published in **AI and Machine Learning for Mechanical and Electrical Engineering**, pp. 182–197, Auerbach Publications (Taylor & Francis), 2025.
+
+{% cite dandge2025swarm %}
+
+---
+
+## Status
+
+**Published** — Auerbach Publications, 2025.
