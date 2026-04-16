@@ -7,6 +7,19 @@ nav: true
 nav_order: 6
 ---
 
+## AI Tools & Platforms
+
+### Anthropic · Apr 2026
+
+| Course | Provider | Completed | Certificate |
+| --- | --- | --- | --- |
+| Claude Code in Action | Anthropic | Apr 16, 2026 | [View](/assets/certificates/260416_anthropic_claude_code_in_action.pdf){:target="_blank"} |
+| Claude Code 101 | Anthropic | Apr 16, 2026 | [View](/assets/certificates/260416_anthropic_claude_code_101.pdf){:target="_blank"} |
+| Claude 101 | Anthropic | Apr 16, 2026 | [View](/assets/certificates/260416_anthropic_claude_101.pdf){:target="_blank"} |
+| Introduction to Claude Cowork | Anthropic | Apr 16, 2026 | [View](/assets/certificates/260416_anthropic_intro_claude_cowork.pdf){:target="_blank"} |
+
+---
+
 ## AI & Machine Learning Specializations
 
 ### Natural Language Processing Specialization — DeepLearning.AI · Coursera · Jul 2025
