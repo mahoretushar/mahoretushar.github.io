@@ -13,6 +13,7 @@ nav_order: 6
 
 | Course | Provider | Completed | Certificate |
 | --- | --- | --- | --- |
+| AI Fluency: Framework & Foundations | Anthropic | Apr 23, 2026 | [View](/assets/certificates/260423_anthropic_ai_fluency_framework_foundations.pdf){:target="_blank"} |
 | Claude Code in Action | Anthropic | Apr 16, 2026 | [View](/assets/certificates/260416_anthropic_claude_code_in_action.pdf){:target="_blank"} |
 | Claude Code 101 | Anthropic | Apr 16, 2026 | [View](/assets/certificates/260416_anthropic_claude_code_101.pdf){:target="_blank"} |
 | Claude 101 | Anthropic | Apr 16, 2026 | [View](/assets/certificates/260416_anthropic_claude_101.pdf){:target="_blank"} |
@@ -49,6 +50,7 @@ nav_order: 6
 
 | Program | Organizer | Period | Certificate |
 | --- | --- | --- | --- |
+| One Week FDP on "Integrating Machine Learning and AI for Scalable IoT Solutions" — IEEE CTSoc | Vishwakarma Institute of Technology, Pune | Apr 13–17, 2026 | [View](/assets/certificates/260413_fdp_ml_ai_iot_solutions_vit_ieee_ctsoc.pdf){:target="_blank"} |
 | FDP on "AI Tools" — National Level, AICTE | Dayananda Sagar Academy of Technology & Management, Bengaluru | Feb 17–21, 2025 | [View](/assets/certificates/250217_fdp_ai_tools_dsatm_aicte.pdf){:target="_blank"} |
 | ISTE SF-STTP/FDP on "Research Methodology & Use of ICT Tools" | P.R. Pote (Patil) College of Engineering & Management, Amravati | Feb 20–25, 2023 | [Organizer](/assets/certificates/230220_fdp_research_methodology_ict_tools_prpote.pdf){:target="_blank"} · [ISTE](/assets/certificates/230220_iste_fdp_research_methodology_ict_tools.pdf){:target="_blank"} |
 | AICTE-ISTE STTP on "Creative & Innovative Approaches for Teaching & Learning" | Dr. Rajendra Gode Institute of Technology & Research, Amravati | Oct 4–8, 2021 | [View](/assets/certificates/211004_sttp_creative_innovative_teaching_learning_rgit.pdf){:target="_blank"} |
