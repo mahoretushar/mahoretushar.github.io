@@ -1,0 +1,247 @@
+cv:
+  name: Tushar Ravindra Mahore
+  email: mahoretushar@gmail.com
+  phone: "+917588085340"
+  location: Pune, Maharashtra, India
+  website: https://mahoretushar.github.io
+
+  social_networks:
+    - network: GitHub
+      username: mahoretushar
+    - network: Google Scholar
+      username: nETPgMwAAAAJ
+    - network: ORCID
+      username: 0009-0000-9406-1178
+
+  sections:
+    Summary:
+      - bullet: >
+          Assistant Professor, Department of AI & Data Science, ICEM Pune.
+          PhD researcher at SIT Pune — building edge-deployable NLP pipelines for
+          real-time disaster situation summarization. 7+ years of teaching experience
+          across six institutions. 15+ publications in IEEE, Springer, Elsevier, and AIP venues.
+
+    Education:
+      - institution: Symbiosis Institute of Technology (SIT)
+        location: Lavale, Pune, Maharashtra
+        url: https://www.sitpune.edu.in
+        area: Computer Science & Engineering
+        studyType: PhD
+        start_date: "2023"
+        end_date: present
+        highlights:
+          - "Research: Edge-deployable NLP pipelines for real-time disaster situation summarization"
+          - "Focus areas: NLP, Crisis Informatics, Edge AI"
+
+      - institution: Government College of Engineering, Amravati (GCOEA)
+        location: Amravati, Maharashtra
+        area: Computer Science & Engineering
+        studyType: M.Tech
+        start_date: "2016"
+        end_date: "2018"
+        highlights:
+          - "Distinction — top performance in program"
+          - "Thesis on graphical password security (JournalNX, 2017)"
+
+      - institution: Sant Gadge Baba Amravati University (SGBAU)
+        location: Amravati, Maharashtra
+        area: Computer Science & Engineering
+        studyType: B.E.
+        start_date: "2010"
+        end_date: "2014"
+        highlights:
+          - "First Class"
+
+    Experience:
+      - company: Indira College of Engineering and Management (ICEM)
+        position: Assistant Professor
+        location: Pune, Maharashtra
+        url: https://indiraicem.ac.in
+        start_date: "2026-02"
+        end_date: present
+        highlights:
+          - "Department of Artificial Intelligence and Data Science, SPPU affiliated"
+          - "Teaching Artificial Neural Networks (317531), T.E. AI & DS (2019 pattern)"
+          - "Internal and External Examiner, SPPU APR-MAY 2026 examinations"
+
+      - company: Pimpri Chinchwad University (PCU)
+        position: Assistant Professor
+        location: Pune, Maharashtra
+        start_date: "2024-07"
+        end_date: "2026-02"
+        highlights:
+          - "Academic Coordinator (July 2025)"
+          - "University Examination — Assistant Senior Supervisor (May 2025)"
+          - "Departmental ERP Coordinator and Result Analysis Incharge (July 2024)"
+
+      - company: Great Learning
+        position: Instructor
+        location: Online
+        start_date: "2023-03"
+        end_date: "2025-08"
+        highlights:
+          - "Delivered online courses in Data Science, Analytics, and Python"
+
+      - company: Sipna College of Engineering and Technology (SCOET)
+        position: Assistant Professor
+        location: Amravati, Maharashtra
+        start_date: "2022-07"
+        end_date: "2024-06"
+        highlights:
+          - "Academic Audit Departmental Incharge (July 2022 – June 2024)"
+          - "Member, Admissions Process (2023–2024)"
+
+      - company: Dr. Rajendra Gode Institute of Technology & Research (DRGITR)
+        position: Assistant Professor
+        location: Amravati, Maharashtra
+        start_date: "2019"
+        end_date: "2022"
+        highlights:
+          - "Head of Department (March 2022 – June 2022)"
+          - "Institute Level In-Charge of Website (2021–2022)"
+          - "Coordinator, M.E. Program (2019–2021)"
+          - "NAAC Criteria 3 Incharge (2019–2020)"
+
+      - company: Government College of Engineering, Amravati (GCOEA)
+        position: Assistant Professor (CHB + M.Tech)
+        location: Amravati, Maharashtra
+        start_date: "2018"
+        end_date: "2019"
+        highlights:
+          - "Taught while completing M.Tech program"
+
+    Publications:
+      - title: "An Explainable Hybrid TabTransformer–Random Forest Model for Biometric Security in IoMT Healthcare Systems"
+        authors:
+          - Sagar Dhanraj Pande
+          - "**Tushar Ravindra Mahore**"
+          - Anushka Ashish Joshi
+          - Vivek B. Kute
+          - Sumit S. Sagne
+          - Ankush Vasant Dahat
+        date: "2026"
+        journal: "Academic Press — Recent Advances in Computational Intelligence Applications"
+
+      - title: "Detection of Multi-class Skin Cancer using SGD Augmentation Model and Activation Mapping"
+        authors:
+          - Ankush Vasant Dahat
+          - "**Tushar Ravindra Mahore**"
+          - Anushka Ashish Joshi
+          - Sagar Dhanraj Pande
+        date: "2025"
+        journal: "Journal of Innovative Image Processing, Vol. 7(4), pp. 1415–1435"
+
+      - title: "Coordinated Response Strategies: Swarm Robotics for Crisis Management"
+        authors:
+          - Renu R. Dandge
+          - "**Tushar R. Mahore**"
+          - Ankush Vasant Dahat
+          - Sagar Dhanraj Pande
+        date: "2025"
+        journal: "Auerbach Publications — AI and ML for Mechanical and Electrical Engineering"
+
+      - title: "Cyberbullying Classification Using NLP and Machine Learning Techniques"
+        authors:
+          - Nikhilesh Pramod Mankar
+          - "**Tushar Mahore**"
+          - Anushka A. Joshi
+          - Sagar Dhanraj Pande
+          - Aditya Khamparia
+          - Fadi Al Turjman
+        date: "2024"
+        journal: "IEEE ACROSET 2024, pp. 1–5"
+
+      - title: "A Survey on Credit Card Fraud Detection using ML and Deep Learning Techniques"
+        authors:
+          - Ashvini S. Gorte
+          - S. W. Mohod
+          - R. R. Keole
+          - "**T. R. Mahore**"
+          - Sagar Pande
+        date: "2023"
+        journal: "AIP Conference Proceedings, Vol. 2800(1), 020118"
+
+      - title: "Comparative Analysis of Detection of Email Spam with ML Approaches"
+        authors:
+          - Mangena Venu Madhavan
+          - Sagar Pande
+          - Pooja Umekar
+          - "**Tushar Mahore**"
+          - Dhiraj Kalyankar
+        date: "2021"
+        journal: "IOP Conference Series: Materials Science and Engineering, Vol. 1022"
+
+      - title: "Secure Graphical Password Scheme"
+        authors:
+          - "**Tushar R. Mahore**"
+          - A. V. Deorankar
+        date: "2017"
+        journal: "JournalNX, Vol. 3(03), pp. 144–147"
+
+    IPR & Awards:
+      - label: "Patent: AI Based Smart System For Early Detection Of Omicron And Covid-19 Symptoms"
+        details: "Indian Patent Office, June 2022"
+
+      - label: "Copyright: Analysis Based System for Identifying Media to Broadcast Positive Thoughts"
+        details: "Copyright Office, India, March 2021"
+
+    Certifications:
+      - label: "AI Fluency: Framework & Foundations"
+        details: "Anthropic, Apr 2026"
+
+      - label: "Claude Code in Action / Claude Code 101 / Claude 101 / Intro to Claude Cowork"
+        details: "Anthropic, Apr 2026 (4 certificates)"
+
+      - label: "One Week FDP: Integrating ML and AI for Scalable IoT Solutions"
+        details: "VIT Pune — IEEE CTSoc, Pune Chapter, Apr 2026"
+
+      - label: "FDP on AI Tools — National Level, AICTE"
+        details: "Dayananda Sagar Academy of Technology & Management, Bengaluru, Feb 2025"
+
+      - label: "Red Hat System Administration I (RH124 - RHCSA)"
+        details: "Red Hat, Oct 2025"
+
+      - label: "Natural Language Processing Specialization (4 Courses)"
+        details: "DeepLearning.AI — Coursera, Jul 2025"
+
+      - label: "Generative AI Engineering with LLMs Specialization"
+        details: "IBM — Coursera, Jul 2025"
+
+      - label: "ISTE STTP on Research Methodology & Use of ICT Tools"
+        details: "P.R. Pote (Patil) College, Amravati, Feb 2023"
+
+      - label: "Introduction to Data Science"
+        details: "Cisco Networking Academy, May 2023"
+
+      - label: "AICTE STTP on Data Analytics in Machine Learning Techniques"
+        details: "Sri Venkateshwara College of Engineering, Bengaluru, Mar 2021"
+
+    Skills:
+      - label: NLP & AI Research
+        details: "Natural Language Processing, Transformers, Abstractive Summarization, RAG, LangChain, Edge AI, Crisis Informatics"
+
+      - label: Programming
+        details: "Python, C, Mojo, Perl, Julia, Rust, Lua"
+
+      - label: Data Science
+        details: "KNIME, Power BI, Tableau, BigQuery, Databricks, Pandas, Scikit-learn"
+
+      - label: Databases
+        details: "Oracle, MySQL, MongoDB, PostgreSQL"
+
+      - label: DevOps & Systems
+        details: "RedHat Linux, Ubuntu, Shell Scripting, Git, GitHub, Docker, Vim"
+
+    Languages:
+      - label: English
+        details: Professional proficiency
+
+      - label: "Hindi & Marathi"
+        details: Native speaker
+
+design:
+  theme: classic
+  page:
+    size: a4
+    show_footer: false
+    show_top_note: false

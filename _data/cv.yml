@@ -227,6 +227,16 @@ cv:
         keywords: "Gym, Reading, Sports"
 
     Certificates:
+      - name: "AI Fluency: Framework & Foundations"
+        date: 2026-04-23
+        issuer: Anthropic
+        icon: fa-solid fa-robot
+
+      - name: One Week FDP on Integrating ML and AI for Scalable IoT Solutions
+        date: 2026-04-17
+        issuer: Vishwakarma Institute of Technology, Pune — IEEE CTSoc
+        icon: fa-solid fa-chalkboard-teacher
+
       - name: Red Hat System Administration I (RH124 - RHCSA)
         date: 2025-10
         issuer: Red Hat

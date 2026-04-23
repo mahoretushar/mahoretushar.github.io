@@ -201,7 +201,7 @@ Highly skilled and dedicated educator with a successful track record in online a
 ---
 
 <div class="text-center mt-4">
-  <a href="/assets/pdf/TusharRMahore_resume_25_V1_UGC.pdf" target="_blank" class="btn btn-outline-primary">
+  <a href="/assets/pdf/TusharRMahore_CV_2026.pdf" target="_blank" class="btn btn-outline-primary">
     Download Full CV (PDF)
   </a>
 </div>
