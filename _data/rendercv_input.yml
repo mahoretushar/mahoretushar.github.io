@@ -16,10 +16,11 @@ cv:
   sections:
     Summary:
       - bullet: >
-          Assistant Professor, Department of AI & Data Science, ICEM Pune.
-          PhD researcher at SIT Pune — building edge-deployable NLP pipelines for
-          real-time disaster situation summarization. 7+ years of teaching experience
-          across six institutions. 15+ publications in IEEE, Springer, Elsevier, and AIP venues.
+          Assistant Professor, Department of AI & Data Science, Indira College of Engineering
+          and Management (ICEM), Pune. PhD researcher at Symbiosis Institute of Technology (SIT),
+          Pune — building edge-deployable NLP pipelines for real-time disaster situation
+          summarization. 7+ years of teaching experience across six institutions. 15+ publications
+          in IEEE, Springer, Elsevier, AIP, and IOP venues. Patent holder and copyright registrant.
 
     Education:
       - institution: Symbiosis Institute of Technology (SIT)
@@ -31,7 +32,7 @@ cv:
         end_date: present
         highlights:
           - "Research: Edge-deployable NLP pipelines for real-time disaster situation summarization"
-          - "Focus areas: NLP, Crisis Informatics, Edge AI"
+          - "Focus areas: Natural Language Processing, Crisis Informatics, Edge AI"
 
       - institution: Government College of Engineering, Amravati (GCOEA)
         location: Amravati, Maharashtra
@@ -41,7 +42,7 @@ cv:
         end_date: "2018"
         highlights:
           - "Distinction — top performance in program"
-          - "Thesis on graphical password security (JournalNX, 2017)"
+          - "Thesis: Secure Graphical Password Scheme (published in JournalNX, 2017)"
 
       - institution: Sant Gadge Baba Amravati University (SGBAU)
         location: Amravati, Maharashtra
@@ -61,8 +62,8 @@ cv:
         end_date: present
         highlights:
           - "Department of Artificial Intelligence and Data Science, SPPU affiliated"
-          - "Teaching Artificial Neural Networks (317531), T.E. AI & DS (2019 pattern)"
-          - "Internal and External Examiner, SPPU APR-MAY 2026 examinations"
+          - "Teaching: Artificial Neural Networks (317531), T.E. AI & DS (2019 pattern)"
+          - "Internal and External Examiner, SPPU APR–MAY 2026 examinations"
 
       - company: Pimpri Chinchwad University (PCU)
         position: Assistant Professor
@@ -70,6 +71,7 @@ cv:
         start_date: "2024-07"
         end_date: "2026-02"
         highlights:
+          - "Teaching: Data Science & Analytics; Data Communication & Computer Networks; Java Programming; Data Modeling & Visualization"
           - "Academic Coordinator (July 2025)"
           - "University Examination — Assistant Senior Supervisor (May 2025)"
           - "Departmental ERP Coordinator and Result Analysis Incharge (July 2024)"
@@ -110,6 +112,12 @@ cv:
         highlights:
           - "Taught while completing M.Tech program"
 
+    Courses Taught:
+      - label: "ICEM, Pune (2026–Present)"
+        details: "Artificial Neural Networks (317531) — T.E. AI & DS, SPPU 2019 Pattern"
+      - label: "PCU, Pune (2024–2026)"
+        details: "Data Science & Analytics · Data Communication & Computer Networks · Java Programming · Data Modeling & Visualization"
+
     Publications:
       - title: "An Explainable Hybrid TabTransformer–Random Forest Model for Biometric Security in IoMT Healthcare Systems"
         authors:
@@ -120,9 +128,9 @@ cv:
           - Sumit S. Sagne
           - Ankush Vasant Dahat
         date: "2026"
-        journal: "Academic Press — Recent Advances in Computational Intelligence Applications"
+        journal: "Academic Press — Recent Advances in Computational Intelligence Applications for Biometrics and Biomedical Devices, pp. 285–300"
 
-      - title: "Detection of Multi-class Skin Cancer using SGD Augmentation Model and Activation Mapping"
+      - title: "Detection of Multi-class Skin Cancer using Stochastic Gradient Descent Augmentation Model and Activation Mapping"
         authors:
           - Ankush Vasant Dahat
           - "**Tushar Ravindra Mahore**"
@@ -136,22 +144,25 @@ cv:
           - Renu R. Dandge
           - "**Tushar R. Mahore**"
           - Ankush Vasant Dahat
+          - Pallavi H. Dhole
+          - Nikhilesh P. Mankar
           - Sagar Dhanraj Pande
         date: "2025"
-        journal: "Auerbach Publications — AI and ML for Mechanical and Electrical Engineering"
+        journal: "Auerbach Publications — AI and Machine Learning for Mechanical and Electrical Engineering, pp. 182–197"
 
-      - title: "Cyberbullying Classification Using NLP and Machine Learning Techniques"
+      - title: "Cyberbullying Classification Using Natural Language Processing and Machine Learning Techniques"
         authors:
           - Nikhilesh Pramod Mankar
           - "**Tushar Mahore**"
           - Anushka A. Joshi
           - Sagar Dhanraj Pande
           - Aditya Khamparia
+          - Ankita Shrikrushna Nathe
           - Fadi Al Turjman
         date: "2024"
-        journal: "IEEE ACROSET 2024, pp. 1–5"
+        journal: "IEEE — 2024 International Conference on Advances in Computing Research on Science Engineering and Technology (ACROSET), pp. 1–5"
 
-      - title: "A Survey on Credit Card Fraud Detection using ML and Deep Learning Techniques"
+      - title: "A Survey on Credit Card Fraud Detection using Machine Learning and Deep Learning Techniques"
         authors:
           - Ashvini S. Gorte
           - S. W. Mohod
@@ -161,7 +172,46 @@ cv:
         date: "2023"
         journal: "AIP Conference Proceedings, Vol. 2800(1), 020118"
 
-      - title: "Comparative Analysis of Detection of Email Spam with ML Approaches"
+      - title: "Credit Card Fraud Detection Using Machine Learning and Deep Learning Approaches"
+        authors:
+          - Ashvini S. Gorte
+          - S. W. Mohod
+          - R. R. Keole
+          - "**T. R. Mahore**"
+          - Sagar Pande
+        date: "2022"
+        journal: "Springer Nature Singapore — Innovative Computing and Communications (ICICC 2022), Vol. 3, pp. 621–628"
+
+      - title: "Food Classification Using Deep Learning Algorithm"
+        authors:
+          - R. V. Jamnekar
+          - R. R. Keole
+          - S. W. Mohod
+          - "**T. R. Mahore**"
+          - Sagar Pande
+        date: "2022"
+        journal: "Springer Nature Singapore — Innovative Computing and Communications (ICICC 2022), Vol. 3, pp. 717–724"
+
+      - title: "Student Attendance Monitoring System Using Facial Recognition"
+        authors:
+          - Reshma B. Wankhade
+          - S. W. Mohod
+          - R. R. Keole
+          - "**T. R. Mahore**"
+          - Sagar Dhanraj Pande
+        date: "2022"
+        journal: "Springer Nature Singapore — Innovative Computing and Communications (ICICC 2022), Vol. 3, pp. 613–620"
+
+      - title: "A Survey on Big Data in Healthcare"
+        authors:
+          - Sheena J. Popli
+          - "**Tushar R. Mahore**"
+          - Nikhil E. Karale
+          - Sagar Pande
+        date: "2021"
+        journal: "International Conference on Innovative Computing and Communication (ICICC 2021)"
+
+      - title: "Comparative Analysis of Detection of Email Spam with Machine Learning Approaches"
         authors:
           - Mangena Venu Madhavan
           - Sagar Pande
@@ -169,7 +219,7 @@ cv:
           - "**Tushar Mahore**"
           - Dhiraj Kalyankar
         date: "2021"
-        journal: "IOP Conference Series: Materials Science and Engineering, Vol. 1022"
+        journal: "IOP Conference Series: Materials Science and Engineering, Vol. 1022(1), 012113"
 
       - title: "Secure Graphical Password Scheme"
         authors:
@@ -186,35 +236,35 @@ cv:
         details: "Copyright Office, India, March 2021"
 
     Certifications:
-      - label: "AI Fluency: Framework & Foundations"
-        details: "Anthropic, Apr 2026"
-
-      - label: "Claude Code in Action / Claude Code 101 / Claude 101 / Intro to Claude Cowork"
-        details: "Anthropic, Apr 2026 (4 certificates)"
-
-      - label: "One Week FDP: Integrating ML and AI for Scalable IoT Solutions"
-        details: "VIT Pune — IEEE CTSoc, Pune Chapter, Apr 2026"
-
-      - label: "FDP on AI Tools — National Level, AICTE"
-        details: "Dayananda Sagar Academy of Technology & Management, Bengaluru, Feb 2025"
-
-      - label: "Red Hat System Administration I (RH124 - RHCSA)"
-        details: "Red Hat, Oct 2025"
-
       - label: "Natural Language Processing Specialization (4 Courses)"
-        details: "DeepLearning.AI — Coursera, Jul 2025"
+        details: "DeepLearning.AI — Coursera, July 2025"
 
       - label: "Generative AI Engineering with LLMs Specialization"
-        details: "IBM — Coursera, Jul 2025"
+        details: "IBM — Coursera, July 2025"
+
+      - label: "Red Hat System Administration I (RH124 – RHCSA)"
+        details: "Red Hat, October 2025"
+
+      - label: "One Week FDP: AI for Sustainable Development"
+        details: "VIT Pune — IEEE Pune Section, May 2026"
+
+      - label: "One Week FDP: Integrating ML and AI for Scalable IoT Solutions"
+        details: "VIT Pune — IEEE CTSoc, Pune Chapter, April 2026"
+
+      - label: "FDP on AI Tools — National Level, AICTE"
+        details: "Dayananda Sagar Academy of Technology & Management, Bengaluru, February 2025"
+
+      - label: "AI Fluency: Framework & Foundations"
+        details: "Anthropic, April 2026"
 
       - label: "ISTE STTP on Research Methodology & Use of ICT Tools"
-        details: "P.R. Pote (Patil) College, Amravati, Feb 2023"
+        details: "P.R. Pote (Patil) College, Amravati, February 2023"
 
       - label: "Introduction to Data Science"
         details: "Cisco Networking Academy, May 2023"
 
       - label: "AICTE STTP on Data Analytics in Machine Learning Techniques"
-        details: "Sri Venkateshwara College of Engineering, Bengaluru, Mar 2021"
+        details: "Sri Venkateshwara College of Engineering, Bengaluru, March 2021"
 
     Skills:
       - label: NLP & AI Research
