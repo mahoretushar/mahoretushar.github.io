@@ -76,6 +76,7 @@ nav_order: 6
 
 | Course | Platform | Completed | Certificate |
 | --- | --- | --- | --- |
+| Data Management with Databricks: Big Data with Delta Lakes | Coursera | Jun 6, 2026 | [View](/assets/certificates/260606_coursera_databricks_big_data_delta_lakes.pdf){:target="_blank"} |
 | Neural Networks (ANN) using Keras and TensorFlow in Python | Udemy | Jun 1, 2020 | [View](/assets/certificates/200601_ann_keras_tensorflow.pdf){:target="_blank"} |
 | Machine Learning with Jupyter Notebooks in Amazon AWS | Udemy | Jun 1, 2020 | [View](/assets/certificates/200601_ml_jupyter_aws.pdf){:target="_blank"} |
 | Complete Data Science Course: Beginner to Advance | Udemy | Apr 27, 2020 | [View](/assets/certificates/200427_data_science_beginner_advance.pdf){:target="_blank"} |

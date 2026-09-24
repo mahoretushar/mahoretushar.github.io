@@ -115,6 +115,13 @@
   ],
   "certificates": [
     {
+      "name": "Data Management with Databricks: Big Data with Delta Lakes",
+      "date": "2026-06-06",
+      "issuer": "Coursera",
+      "url": "https://coursera.org/verify/CIZ40VF8LCIO",
+      "icon": "fa-solid fa-database"
+    },
+    {
       "name": "Machine Learning",
       "date": "2018-01-01",
       "issuer": "Stanford University",
