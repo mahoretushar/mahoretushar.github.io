@@ -473,6 +473,6 @@ for label, value in personal:
 # =====================================================================
 # SAVE
 # =====================================================================
-out = '/Users/wolf/Documents/Everything/10_Projects/14_Personal/Website/Website/assets/pdf/TusharRMahore_Resume_2026.docx'
+out = '/Users/wolf/Documents/Everything/13_Career/Profile/Website/Website/assets/pdf/TusharRMahore_Resume_2026.docx'
 doc.save(out)
 print(f'Saved: {out}')
